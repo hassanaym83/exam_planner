@@ -1,16 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
+<?php require_once 'includes/header.php'; ?>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link type="text/css" rel="stylesheet" href="css/style.css">
-    <title>Exam Planner APP</title>
-</head>
+<h1>Bienvenue sur Exam Planner</h1>
+<p>Application de planification d'examens propulsée par l'IA.</p>
+<p style="margin-top: 15px;">
+    <a href="users.php" class="btn">Voir les utilisateurs</a>
+    <a href="add_user.php" class="btn" style="margin-left: 10px;">Ajouter un utilisateur</a>
+</p>
 
-<body>
-    <h1>Salam</h1>
-    <?php echo "alaykom" ?>
-</body>
-
-</html>
+<?php require_once 'includes/footer.php'; ?>
